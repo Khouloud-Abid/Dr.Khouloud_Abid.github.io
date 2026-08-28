@@ -1,6 +1,10 @@
 ---
+permalink: /
 title: "About Me"
-permalink: /about/
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 I am Dr. Khouloud Abid, a Postdoctoral Researcher at CNR-ITAE,
