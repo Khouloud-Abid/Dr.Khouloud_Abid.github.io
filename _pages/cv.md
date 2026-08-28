@@ -8,10 +8,10 @@ redirect_from:
 ---
 
 ---
-title: "CV"
-permalink: /cv/
+title: "My CV"
+permalink: /My CV/
 ---
 
 Download my CV:
 
-[Download CV](/files/Khouloud_Abid_CV.pdf)
+[Download CV](/files/CV_ Khouloud ABID.pdf)
