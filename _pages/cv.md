@@ -12,6 +12,7 @@ title: "My CV"
 permalink: /My CV/
 ---
 
-Download my CV:
-
-[Download CV](/files/CV_ Khouloud ABID.pdf)
+<div class="cv-download-links">
+  <a href="{{ base_path }}/files/CV_ Khouloud ABID.pdf" class="btn btn--primary">Download CV as PDF</a>
+  <a href="{{ base_path }}" class="btn btn--inverse">View Markdown CV</a>
+</div>
