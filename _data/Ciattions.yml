@@ -1,0 +1,31 @@
+# ==========================================
+# CITATION STATISTICS
+# Source: Google Scholar
+# Last updated: August 2026
+# ==========================================
+total_citations: 189
+h_index: 7
+i10_index: 7
+
+years:
+  - year: 2020
+    citations: 1
+    
+    - year: 2021
+    citations: 4
+    
+    - year: 2022
+    citations: 11
+    
+  - year: 2023
+    citations: 13
+
+  - year: 2024
+    citations: 45
+
+  - year: 2025
+    citations: 68
+
+  - year: 2026
+    citations: 47
+    
