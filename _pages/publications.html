@@ -1,38 +1,37 @@
 ---
-layout: archive
-title: "My Publications"
-permalink: /publications/
-author_profile: true
----
-
----
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-## Publications
+<h2>Publications</h2>
 
 {% assign pubs = site.publications | sort: 'date' | reverse %}
 
 {% for post in pubs %}
 
-### {{ post.title }}
+<div class="publication-item">
 
-**{{ post.date | date: "%Y" }}** · *{{ post.venue }}*
+  <h3>{{ post.title }}</h3>
 
-{% if post.paperurl %}
-[📄 Paper]({{ post.paperurl }})
-{% endif %}
+  <p>
+    <strong>{{ post.date | date: "%Y" }}</strong>
+    {% if post.venue %}
+      · <em>{{ post.venue }}</em>
+    {% endif %}
+  </p>
 
-{% if post.doi %}
-[DOI](https://doi.org/{{ post.doi }})
-{% endif %}
+  {% if post.paperurl %}
+    <a href="{{ post.paperurl }}" target="_blank">📄 Paper</a>
+  {% endif %}
+
+  {% if post.doi %}
+    &nbsp; | &nbsp;
+    <a href="https://doi.org/{{ post.doi }}" target="_blank">DOI</a>
+  {% endif %}
+
+</div>
+
+<hr>
 
 {% endfor %}
----
-
-
-
-
-
