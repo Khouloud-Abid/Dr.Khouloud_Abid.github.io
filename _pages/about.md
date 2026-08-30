@@ -7,12 +7,6 @@ redirect_from:
   - /about.html
 ---
 
----
-permalink: /
-title: "About Me"
-author_profile: true
----
-
 # Dr. Khouloud Abid
 
 **Postdoctoral Researcher · CNR-ITAE · Messina, Italy**
@@ -49,24 +43,39 @@ Since 2025, my postdoctoral research at CNR-ITAE has broadened my research inter
 ## Research Interests
 
 My research interests span several interdisciplinary areas:
+<div class="research-grid">
 
-**2D Materials**  
-Graphene, graphene oxide, MoS₂, MoSe₂, WS₂ and TMDC heterostructures.
+<div class="research-card">
+<h3>2D Materials</h3>
+<p>Graphene, graphene oxide, MoS₂, MoSe₂, WS₂ and TMDC heterostructures.</p>
+</div>
 
-**Electrochemical Sensors**  
-Development of sensitive electrochemical platforms using CV, DPV, SWV and EIS.
+<div class="research-card">
+<h3>Electrochemical Sensors</h3>
+<p>CV, DPV, SWV, EIS and advanced electrochemical platforms.</p>
+</div>
 
-**Plasmonic Sensing**  
-SERS, PIERS, TERS and advanced nanostructured sensing platforms.
+<div class="research-card">
+<h3>Plasmonic Sensing</h3>
+<p>SERS, PIERS, TERS and nanostructured plasmonic platforms.</p>
+</div>
 
-**CO₂ Capture**  
-Porous materials, biochar, activated carbon and composite materials for CO₂ adsorption.
+<div class="research-card">
+<h3>CO₂ Capture</h3>
+<p>Biochar, activated carbon and porous composite materials for CO₂ adsorption.</p>
+</div>
 
-**Thermochemical Energy Storage**  
-Salt-hydrate-based materials and porous composite systems for thermal energy storage.
+<div class="research-card">
+<h3>Thermochemical Energy Storage</h3>
+<p>Salt-hydrate systems and porous composites for sustainable thermal energy storage.</p>
+</div>
 
-**Environmental Monitoring**  
-Advanced sensing technologies for environmental pollutants and precision agriculture.
+<div class="research-card">
+<h3>Environmental Monitoring</h3>
+<p>Advanced sensors for environmental pollutants and precision agriculture.</p>
+</div>
+
+</div> 
 
 ## Research Approach
 
